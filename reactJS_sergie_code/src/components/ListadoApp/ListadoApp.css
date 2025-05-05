@@ -1,0 +1,15 @@
+.task{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px;   
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    width: 300px;
+}
+
+.taskDone{
+    text-decoration: line-through;
+}
