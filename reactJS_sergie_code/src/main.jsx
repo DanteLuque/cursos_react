@@ -8,7 +8,8 @@ import './main.css'
 //import { UsersApp } from './components/4.-useEffect/UsersApp'
 //import { UsersApp } from './components/5.-custom_hooks/UsersApp'
 //import { HooksApp } from './components/HooksApp/HooksApp'
-import { FormularioComponent } from './components/6.-useEffect/FormularioComponent'
+import { FormularioComponent } from './components/6.-useRef/FormularioComponent'
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -17,7 +18,7 @@ createRoot(document.getElementById('root')).render(
     {/* <Counter value={0} />*/}
     {/* <ListadoApp />*/}
     {/* <UsersApp /> */}
-    {/*<HooksApp /> */}
+    {/* <HooksApp /> */}
     <FormularioComponent />
-  </StrictMode>,
+  </StrictMode>
 )
