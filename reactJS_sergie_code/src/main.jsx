@@ -9,7 +9,7 @@ import './main.css'
 //import { UsersApp } from './components/5.-custom_hooks/UsersApp'
 //import { HooksApp } from './components/HooksApp/HooksApp'
 import { FormularioComponent } from './components/6.-useRef/FormularioComponent'
-
+import { CalculosPesados } from './components/7.-useMemo/CalculosPesados'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -19,6 +19,7 @@ createRoot(document.getElementById('root')).render(
     {/* <ListadoApp />*/}
     {/* <UsersApp /> */}
     {/* <HooksApp /> */}
-    <FormularioComponent />
+    {/* <FormularioComponent /> */}
+    <CalculosPesados />
   </StrictMode>
 )
