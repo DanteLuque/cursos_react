@@ -8,8 +8,10 @@ import './main.css'
 //import { UsersApp } from './components/4.-useEffect/UsersApp'
 //import { UsersApp } from './components/5.-custom_hooks/UsersApp'
 //import { HooksApp } from './components/HooksApp/HooksApp'
-import { FormularioComponent } from './components/6.-useRef/FormularioComponent'
-import { CalculosPesados } from './components/7.-useMemo/CalculosPesados'
+//import { FormularioComponent } from './components/6.-useRef/FormularioComponent'
+//import { CalculosPesados } from './components/7.-useMemo/CalculosPesados'
+//import { CallbackComponent } from './components/8-useCallback/CallbackComponent'
+import { ListaTareas } from './components/9.-useReducer/todolist_useReducer'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -20,6 +22,8 @@ createRoot(document.getElementById('root')).render(
     {/* <UsersApp /> */}
     {/* <HooksApp /> */}
     {/* <FormularioComponent /> */}
-    <CalculosPesados />
+    {/* <CalculosPesados /> */}
+    {/*<CallbackComponent /> */}
+    <ListaTareas />
   </StrictMode>
 )

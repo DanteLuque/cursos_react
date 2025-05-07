@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "scan": "vite & npx react-scan@latest http://localhost:5173"
+    "scan": "wait-on http://localhost:5173 && npx react-scan@latest http://localhost:5173"
   },
   "dependencies": {
     "react": "^19.0.0",
@@ -24,6 +24,7 @@
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^16.0.0",
     "react-scan": "^0.0.44",
-    "vite": "^6.3.1"
+    "vite": "^6.3.1",
+    "wait-on": "^8.0.3"
   }
 }
