@@ -11,19 +11,24 @@ import './main.css'
 //import { FormularioComponent } from './components/6.-useRef/FormularioComponent'
 //import { CalculosPesados } from './components/7.-useMemo/CalculosPesados'
 //import { CallbackComponent } from './components/8-useCallback/CallbackComponent'
-import { ListaTareas } from './components/9.-useReducer/todolist_useReducer'
+//import { ListaTareas } from './components/9.-useReducer/todolist_useReducer'
+import { BrowserRouter } from 'react-router-dom'
+import { App } from './App'
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    {/* <FirstComponent /> */}
-    {/* <SecondComponent titulo="Sección de props" prop1="soy uno" prop2="soy dos" prop3="soy tres" propNumerico={100}/> */}
-    {/* <Counter value={0} />*/}
-    {/* <ListadoApp />*/}
-    {/* <UsersApp /> */}
-    {/* <HooksApp /> */}
-    {/* <FormularioComponent /> */}
-    {/* <CalculosPesados /> */}
-    {/*<CallbackComponent /> */}
-    <ListaTareas />
-  </StrictMode>
+  <BrowserRouter>
+    <StrictMode>
+      {/* <FirstComponent /> */}
+      {/* <SecondComponent titulo="Sección de props" prop1="soy uno" prop2="soy dos" prop3="soy tres" propNumerico={100}/> */}
+      {/* <Counter value={0} />*/}
+      {/* <ListadoApp />*/}
+      {/* <UsersApp /> */}
+      {/* <HooksApp /> */}
+      {/* <FormularioComponent /> */}
+      {/* <CalculosPesados /> */}
+      {/*<CallbackComponent /> */}
+      {/* <ListaTareas /> */}
+      <App />
+    </StrictMode>
+  </BrowserRouter>
 )
